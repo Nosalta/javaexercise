@@ -10,7 +10,7 @@ public class CustomerService {
 
     public ArrayList<Customer> getAllCustomers() throws SQLException {
         System.out.println("Välkommen till din databas!");
-        System.out.println("Völj åtgärd i menyn.");
+        System.out.println("Välj åtgärd i menyn.");
         return customerRepository.getAll();
     }
 

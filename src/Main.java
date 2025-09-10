@@ -12,7 +12,7 @@ public class Main {
 
 
         public static void main(String[] args) throws SQLException {
-            Scanner sc = new Scanner(System.in);      // Skapa Scanner en gång
+            Scanner sc = new Scanner(System.in);      // skapa Scanner
             CustomerController cc = new CustomerController();
            // cc.runMenu(sc);
 
@@ -47,7 +47,7 @@ public class Main {
                 }
                 case "3" -> {
                     orderController.createOrderFlow(sc);
-                }  // nu finns metoden
+                }
                 case "0" -> {
                     System.out.println("Avslutar…");
                     return;
