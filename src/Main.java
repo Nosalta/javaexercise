@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 
+@SuppressWarnings("ALL")
 public class Main {
 
 
